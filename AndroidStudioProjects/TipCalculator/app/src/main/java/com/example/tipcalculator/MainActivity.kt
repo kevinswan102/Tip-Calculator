@@ -15,7 +15,7 @@ import androidx.core.content.ContextCompat
 private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
 
-//Declare and set variables
+//Declare variables
 class MainActivity : AppCompatActivity() {
     private lateinit var etBaseAmount: EditText
     private lateinit var seekBarTip: SeekBar
@@ -26,6 +26,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var tvTaxLabel: TextView
     private lateinit var etTaxInput: EditText
 
+//Set variables    
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
